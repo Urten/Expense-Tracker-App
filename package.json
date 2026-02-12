@@ -1,0 +1,27 @@
+{
+  "name": "expense-tracker-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urten/Expense-Tracker-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Urten/Expense-Tracker-App/issues"
+  },
+  "homepage": "https://github.com/Urten/Expense-Tracker-App#readme",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "mysql2": "^3.17.0",
+    "sequelize": "^6.37.7"
+  }
+}
