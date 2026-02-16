@@ -1,7 +1,7 @@
 const { sequelize } = require('../config/config')
-const { Datatypes } = require('sequelize')
+const { DataTypes } = require('sequelize')
 
-const User = require('./user.model')(sequelize, Datatypes)
+const User = require('./user.model')(sequelize, DataTypes)
 
 module.exports = {
     sequelize,

@@ -27,4 +27,4 @@ async function init_db() {
 
 
 
-module.exports = { init_db };
+module.exports = { init_db, sequelize };
